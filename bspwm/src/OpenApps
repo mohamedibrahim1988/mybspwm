@@ -15,9 +15,6 @@ case "$1" in
 --screenshot)
     ScreenShoTer
     ;;
---powermenu)
-    PowerMenu
-    ;;
 --keyboard)
     KeyBoardL
     ;;

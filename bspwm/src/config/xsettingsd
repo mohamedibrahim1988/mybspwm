@@ -1,6 +1,6 @@
-Net/ThemeName "TokyoNight-zk"
-Net/IconThemeName "TokyoNight-SE"
-Gtk/CursorThemeName "Qogirr-Dark"
+Net/ThemeName "Gruvbox-zk"
+Net/IconThemeName "Gruvbox Plus Dark"
+Gtk/CursorThemeName "Qogirr"
 Gtk/DecorationLayout ":"
 Xft/Hinting 1
 Xft/HintStyle "hintfull"

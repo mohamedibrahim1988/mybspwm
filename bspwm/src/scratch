@@ -10,7 +10,7 @@ Music)
     winname="Music"
     ;;
 Htop)
-    entry="alacritty -t Htop -e Htop"
+    entry="alacritty --class Htop -e htop"
     winname="Htop"
     ;;
 *)

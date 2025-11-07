@@ -1,7 +1,7 @@
 #!/bin/sh
 # Main vars
 SCRATCHPAD_NAME="BspwmScratchPad"
-CFG_TERM="$HOME/.config/bspwm/src/config/.term"
+CFG_TERM="$HOME/.config/rofi/config/.term"
 read -r MY_TERM <"$CFG_TERM"
 MAX_WIDTH_PERCENT=40
 HEIGHT_PERCENT=50

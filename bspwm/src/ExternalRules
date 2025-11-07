@@ -29,7 +29,7 @@ scratchpad)
     result "state=floating focus=on sticky=on center=on rectangle=696x399+0+0"
     ;;
 Htop)
-    result "state=floating focus=on center=on"
+    result "state=floating focus=on sticky=on center=on rectangle=750x500+0+0"
     ;;
 mpv)
     result "state=floating focus=on center=on rectangle=723x407+0+0"
@@ -47,6 +47,9 @@ librewolf | Navigator)
     result "desktop=^3 follow=on"
     ;;
 Music)
+    result "state=floating center=on rectangle=656x343+0+0"
+    ;;
+MusicTerm)
     result "state=floating center=on rectangle=656x343+0+0"
     ;;
 esac

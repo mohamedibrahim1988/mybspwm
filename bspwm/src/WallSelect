@@ -73,4 +73,5 @@ wall_selection=$(find "${wall_dir}" -type f \( -iname "*.jpg" -o -iname "*.jpeg"
     done | $rofi_command)
 
 # Set wallpaper
-[ -n "$wall_selection" ] && xwallpaper --zoom "${wall_dir}/${wall_selection}"
+#[ -n "$wall_selection" ] && xwallpaper --zoom "${wall_dir}/${wall_selection}"
+[ -n "$wall_selection" ] && setbg "${wall_dir}/${wall_selection}"

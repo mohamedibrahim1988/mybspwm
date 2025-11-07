@@ -20,13 +20,13 @@ get_terminal() {
     fi
 
     # Default to st for scratchpad if available (lightweight and fast)
-    if command -v st >/dev/null 2>&1; then
-        echo "st"
+    if command -v alacritty >/dev/null 2>&1; then
+        echo "alacritty"
         return
     fi
 
     # Fall back to other terminals if st not available
-    for term in alacritty kitty wezterm xfce4-terminal gnome-terminal konsole urxvt ghostty; do
+    for term in st kitty wezterm xfce4-terminal gnome-terminal konsole urxvt ghostty; do
         if command -v "$term" >/dev/null 2>&1; then
             echo "$term"
             return
