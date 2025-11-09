@@ -144,13 +144,13 @@ super + alt + r
 super + x
     eww -c ~/.config/eww open-many --toggle powermenu-clickhandler powermenu
 #change keyboard
-alt + Shift_L
-     ~/.config/eww/scripts/kb_layouts cycle ara us
+super + space
+     ~/.config/eww/scripts/toggle_keyboard.sh
 # open scratchpad
 super + grave
     scratch scratchpad
 # open scratchpad two
-super + F2
+alt + grave
     Bspwm-ScratchPad
 # Keybindings helps rofi
 super + s
@@ -158,7 +158,9 @@ super + s
 #RED SHIFT
 alt + e
     cycle-redshift.sh
+# ScreenShot
 Print
     OpenApps --screenshot
+# Music PLayer
 super + F3
     mpd_rofi -l
